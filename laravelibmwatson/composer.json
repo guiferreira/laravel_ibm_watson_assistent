@@ -1,5 +1,5 @@
 {
-    "name": "guilhermeferreira/laravelibmwatson",
+    "name": "guiferreira/laravel_ibm_watson_assistent",
     "description": "Assistente Virtual com IBM Watson para Laravel",
     "keywords": ["assitent", "virtual", "ibm", "watson"],
     "license": "MIT",
