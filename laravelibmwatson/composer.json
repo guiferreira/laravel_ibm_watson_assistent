@@ -1,0 +1,47 @@
+{
+    "name": "guilhermeferreira/laravelibmwatson",
+    "description": "Assistente Virtual com IBM Watson para Laravel",
+    "keywords": ["assitent", "virtual", "ibm", "watson"],
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Guilherme Ferreira",
+            "email": "guilherme@guiacodigo.com"
+        }
+    ],
+    "require": {
+        "php": ">=7.0.0"
+
+    },
+    "require-dev": {
+        "phpunit/phpunit": "^7.0"
+    },
+    "autoload": {
+        "psr-4": {
+            "Guilherme\\Assistent\\": "src/"
+        }
+    },
+    "autoload-dev": {
+        "psr-4": {
+            "Tests\\": "tests/"
+        }
+    },
+    "extra": {
+        "branch-alias": {
+            "dev-master": "1.0-dev"
+        },
+        "laravel": {
+            "providers": [
+                "Guilherme\\Assistent\\AssistentServiceProvider"
+            ],
+            "aliases": {
+                "Guilherme": "Guilherme\\Assistent\\Facades\\Assistent"
+            }
+        }
+    },
+    "config": {
+        "sort-packages": true
+    },
+    "minimum-stability": "dev",
+    "prefer-stable": true
+}
